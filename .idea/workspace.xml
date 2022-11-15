@@ -1,6 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ac94694a-cac6-4b35-b188-98eeab3a2489" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/src/main/java/com/chun/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/src/main/java/com/chun/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/src/main/java/com/chun/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/src/main/java/com/chun/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/src/main/java/com/chun/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/src/main/java/com/chun/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/dao/BookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/dao/impl/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/dao/impl/BookDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/service/impl/BookServiceImpl.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Hacuqh50lO5GKt0z9Fz3DNWdPc" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/casper/Desktop/Laurea/JAVA/spring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chun.App" />
+      <module name="spring_01_quickStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac94694a-cac6-4b35-b188-98eeab3a2489" name="Changes" comment="" />
+      <created>1668526861104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668526861104</updated>
+      <workItem from="1668526864422" duration="828000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

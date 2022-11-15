@@ -5,7 +5,9 @@
 
 
 <!--    set bean-->
-    <bean id="bookService" class="com.chun.service.impl.BookServiceImpl"/>
-    <bean id="bookDao" class="com.chun.dao.impl.BookDaoImpl" />
-
+    <bean id="bookDao" class="com.chun.dao.impl.BookDaoImpl"  init-method="init" destroy-method="destroy"/>
+    <bean id="bookService" class="com.chun.service.impl.BookServiceImpl">
+<!--        name defined in setter method, ref is bean id-->
+        <property name="bookDao" ref="bookDao" />
+    </bean>
 </beans>

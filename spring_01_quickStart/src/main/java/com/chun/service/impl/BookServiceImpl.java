@@ -4,7 +4,7 @@ import com.chun.dao.BookDao;
 import com.chun.dao.impl.BookDaoImpl;
 import com.chun.service.BookService;
 
-public class BookServiceImpl implements BookService {
+public class  BookServiceImpl implements BookService {
 
 //    private BookDao bookDao = new BookDaoImpl();
     private BookDao bookDao;

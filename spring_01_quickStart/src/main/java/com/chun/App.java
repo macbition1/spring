@@ -8,10 +8,14 @@ public class App {
     public static void main(String[] args) {
 
         //Get IoC container
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 
         //Get beans
         BookDao bookDao = (BookDao) ctx.getBean("bookDao");
         bookDao.save();
+        //close virtual machine
+//        ctx.registerShutdownHook();
+        ctx.close();
+
     }
 }
