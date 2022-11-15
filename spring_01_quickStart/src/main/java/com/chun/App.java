@@ -1,6 +1,7 @@
 package com.chun;
 
 import com.chun.dao.BookDao;
+import com.chun.service.BookService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -10,12 +11,8 @@ public class App {
         //Get IoC container
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        //Get beans
-        BookDao bookDao = (BookDao) ctx.getBean("bookDao");
-        bookDao.save();
-        //close virtual machine
-//        ctx.registerShutdownHook();
-        ctx.close();
+        BookService bookService = (BookService) ctx.getBean("bookService");
+        bookService.save();
 
     }
 }

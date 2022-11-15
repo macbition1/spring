@@ -1,7 +1,6 @@
 package com.chun.service.impl;
 
 import com.chun.dao.BookDao;
-import com.chun.dao.impl.BookDaoImpl;
 import com.chun.service.BookService;
 
 public class  BookServiceImpl implements BookService {
@@ -14,9 +13,11 @@ public class  BookServiceImpl implements BookService {
         bookDao.save();
     }
 
-
-    //Provide related setter method, and then in applicationContext.xml set the relationship
-    public void setBookDao(BookDao bookDao) {
+    public BookServiceImpl(BookDao bookDao) {
         this.bookDao = bookDao;
     }
+//Provide related setter method, and then in applicationContext.xml set the relationship
+//    public void setBookDao(BookDao bookDao) {
+//        this.bookDao = bookDao;
+//    }
 }
