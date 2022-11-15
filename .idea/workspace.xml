@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac94694a-cac6-4b35-b188-98eeab3a2489" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/src/main/java/com/chun/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/src/main/java/com/chun/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/src/main/java/com/chun/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/src/main/java/com/chun/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_01_quickStart/src/main/java/com/chun/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/src/main/java/com/chun/dao/impl/BookDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_01_quickStart/src/main/java/com/chun/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/src/main/java/com/chun/service/impl/BookServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_01_quickStart/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/dao/impl/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickStart/target/classes/com/chun/dao/impl/BookDaoImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668526861104</updated>
-      <workItem from="1668526864422" duration="1937000" />
+      <workItem from="1668526864422" duration="2190000" />
     </task>
     <servers />
   </component>

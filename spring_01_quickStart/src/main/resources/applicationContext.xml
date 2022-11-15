@@ -5,12 +5,10 @@
 
 
 <!--    set bean-->
-    <bean id="bookDao" class="com.chun.dao.impl.BookDaoImpl"  init-method="init" destroy-method="destroy">
-        <property name="connectionNum" value="100"/>
-        <property name="dataBaseName" value="mysql"/>
-    </bean>
-    <bean id="bookService" class="com.chun.service.impl.BookServiceImpl">
-<!--        name defined in setter method, ref is bean id-->
-        <constructor-arg name="bookDao" ref="bookDao" />
-    </bean>
+    <bean id="bookDao" class="com.chun.dao.impl.BookDaoImpl" />
+
+
+    <bean id="bookService" class="com.chun.service.impl.BookServiceImpl" autowire="byType"/>
+
+
 </beans>
